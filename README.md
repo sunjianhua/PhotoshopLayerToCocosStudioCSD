@@ -29,7 +29,7 @@ photoshop的‘Scripts’目录详细路径：photoshop安装盘\photoshop文件
 
 2. 用这个工具生成的.csd文件，‘NodeObjectData’都为’SpriteObjectData‘，如果能在Cocos Studio 2中可视化修改对象类型就方便多了。
 
-3. 如果想测试工具方便性，手头又没有.psd文件，在[https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD)，提供了一个’skills.psd‘文件，这个文件来自网络免费资源。
+3. 如果想测试工具方便性，手头又没有.psd文件，提供了一个测试文件：[skills.psd（点击下载）](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/blob/master/skills.psd)，这个文件来自网络免费资源。
 
 4. 这个工具可以完善的地方比较多，比如美术人员在photoshop设计好以后，执行脚本，可以直接打开Cocos Studio 2看在编辑器效果，不过没什么实用价值，让美术额外装一个比较难用的Cocos Studio 2，还是放弃吧。
 
