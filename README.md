@@ -25,25 +25,27 @@ photoshop的‘Scripts’目录详细路径：photoshop安装盘\photoshop文件
 经过上面两步操作，又可以继续刷微信，看淘宝了。
 
 #附加信息
-1. 因为要在photoshop中，把每个层转换为图片存储到磁盘，这个操作会慢一些，在开始执行后，稍等一下，会看到在photoshop中出现一些额外的操作窗口，等这些额外的操作窗口，自动执行完全部操作，并自动关闭，转换就全部结束了，如果都是按默认操作执行，可以到.psd文件存放目录，看到新增加了一个.csd文件和一个images文件夹（这个操作都是自动操作，不用干预）。
+1. photoshop画布大小要和Cocos Studio 2场景编辑器中的画布大小相同？？？不然会出现拉伸变形？？？这个没实际测试。
 
-2. 用这个工具生成的.csd文件，‘NodeObjectData’都为’SpriteObjectData‘，如果能在Cocos Studio 2中可视化修改对象类型就方便多了。
+2. 因为要在photoshop中，把每个层转换为图片存储到磁盘，这个操作会慢一些，在开始执行后，稍等一下，会看到在photoshop中出现一些额外的操作窗口，等这些额外的操作窗口，自动执行完全部操作，并自动关闭，转换就全部结束了，如果都是按默认操作执行，可以到.psd文件存放目录，看到新增加了一个.csd文件和一个images文件夹（这个操作都是自动操作，不用干预）。
 
-3. 如果想测试工具方便性，手头又没有.psd文件，提供了一个测试文件：[skills.psd（点击下载）](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/blob/master/skills.psd)，这个文件来自网络免费资源。
+3. 用这个工具生成的.csd文件，‘NodeObjectData’都为’SpriteObjectData‘，如果能在Cocos Studio 2中可视化修改对象类型就方便多了。
 
-4. 这个工具可以完善的地方比较多，比如美术人员在photoshop设计好以后，执行脚本，可以直接打开Cocos Studio 2看在编辑器效果，不过没什么实用价值，让美术额外装一个比较难用的Cocos Studio 2，还是放弃吧。
+4. 如果想测试工具方便性，手头又没有.psd文件，提供了一个测试文件：[skills.psd（点击下载）](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/blob/master/skills.psd)，这个文件来自网络免费资源。
 
-5. 这个工具可以完善的地方比较多，比如可以在photoshop的Layer增加些关键字，可以直接用工具生成Cocos Studio 2编辑器用到的‘按钮’、‘复选框、‘输入框’等控件，让美术做额外的工作，貌似也不太好，放弃。
+5. 这个工具可以完善的地方比较多，比如美术人员在photoshop设计好以后，执行脚本，可以直接打开Cocos Studio 2看在编辑器效果，不过没什么实用价值，让美术额外装一个比较难用的Cocos Studio 2，还是放弃吧。
 
-6. 这个工具不支持中文，因为Spine的LayersToPNG.jsx脚本就不支持，哈哈。
+6. 这个工具可以完善的地方比较多，比如可以在photoshop的Layer增加些关键字，可以直接用工具生成Cocos Studio 2编辑器用到的‘按钮’、‘复选框、‘输入框’等控件，让美术做额外的工作，貌似也不太好，放弃。
 
-7. 这个工具根据.psd的文件名，生成.csd的文件名。
+7. 这个工具不支持中文，因为Spine的LayersToPNG.jsx脚本就不支持，哈哈。
 
-8. 这个工具根据photoshop中Layer的名字，来生成图片的名字，所以这个要策划先把命名规则给美术沟通好，游戏用图的命名规则，就是photoshop中Layer的命名规则，因为不支持中文，所以如果photoshop中Layer名为中文，那么最终输出的图片名为乱码？？？
+8. 这个工具根据.psd的文件名，生成.csd的文件名。
 
-9. 这个工具可能没后续完善，希望Cocos Studio 2编辑器开发方能出一个完善的photoshop插件。
+9. 这个工具根据photoshop中Layer的名字，来生成图片的名字，所以这个要策划先把命名规则给美术沟通好，游戏用图的命名规则，就是photoshop中Layer的命名规则，因为不支持中文，所以如果photoshop中Layer名为中文，那么最终输出的图片名为乱码？？？
 
-10. 给美术推荐方便在真机上看设计效果的利器：[ps play](http://isux.tencent.com/app/psplay)，这是别人开发的，有问题就问别人。
+10. 这个工具可能没后续完善，希望Cocos Studio 2编辑器开发方能出一个完善的photoshop插件。
 
-11. 最后附上完整操作视频。
+11. 给美术推荐方便在真机上看设计效果的利器：[ps play](http://isux.tencent.com/app/psplay)，这是别人开发的，有问题就问别人。
+
+12. 最后附上完整操作视频。
 
