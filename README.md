@@ -4,14 +4,14 @@
 
 #工具介绍
 
-用Photoshop自动创建CocosStudio界面场景的工具，是：LayersToCSD.jsx，这是一个photoshop脚本文件，安装和使用非常方便，这个photoshop脚本，改编自Spine的LayersToPNG.jsx脚本，只是修改了里面的文件输出部分，所以会看到操作界面是一样的。
+用Photoshop自动创建CocosStudio界面场景的工具，是：[LayersToCSD.jsx（点击下载）](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/releases/download/1.0/LayersToCSD.jsx)，这是一个photoshop脚本文件，安装和使用非常方便，这个photoshop脚本，改编自[Spine](www.esotericsoftware.com)的LayersToPNG.jsx脚本，只是修改了里面的文件输出部分，所以会看到操作界面是一样的。
 
 这个工具的调试用的是：Adobe Photoshop CS6，其它版本没测试过。
 
 输出的csd文件格式为Cocos Studio 2的v2.1.5版本，其它版本没测试过。
 
 ##安装
-安装非常简单，只要下载[LayersToCSD.jsx](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/releases/download/1.0/LayersToCSD.jsx)，然后把文件放到photoshop的‘Scripts’目录就可以了。
+安装非常简单，只要下载[LayersToCSD.jsx（点击下载）](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/releases/download/1.0/LayersToCSD.jsx)，然后把文件放到photoshop的‘Scripts’目录就可以了。
 
 photoshop的‘Scripts’目录详细路径：photoshop安装盘\photoshop文件夹\Presets\Scripts\
 
@@ -47,5 +47,5 @@ photoshop的‘Scripts’目录详细路径：photoshop安装盘\photoshop文件
 
 11. 给美术推荐方便在真机上看设计效果的利器：[ps play](http://isux.tencent.com/app/psplay)，这是别人开发的，有问题就问别人。
 
-12. 最后附上完整操作视频。
+12. 最后附上[完整操作视频（点击观看）](http://)。
 
