@@ -47,5 +47,5 @@ photoshop的‘Scripts’目录详细路径：photoshop安装盘\photoshop文件
 
 11. 给美术推荐方便在真机上看设计效果的利器：[ps play](http://isux.tencent.com/app/psplay)，这是别人开发的，有问题就问别人。
 
-12. 最后附上[完整操作视频（点击观看）](http://)。
+12. 最后附上[完整操作视频（点击观看）](http://v.youku.com/v_show/id_XOTE0NzE2NDg0.html)。
 
