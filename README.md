@@ -11,7 +11,7 @@
 输出的csd文件格式为Cocos Studio 2的v2.1.5版本，其它版本没测试过。
 
 ##安装
-安装非常简单，只要下载LayersToCSD.jsx，然后把文件放到photoshop的‘Scripts’目录就可以了。
+安装非常简单，只要下载[LayersToCSD.jsx](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/releases/download/1.0/LayersToCSD.jsx)，然后把文件放到photoshop的‘Scripts’目录就可以了。
 
 photoshop的‘Scripts’目录详细路径：photoshop安装盘\photoshop文件夹\Presets\Scripts\
 
