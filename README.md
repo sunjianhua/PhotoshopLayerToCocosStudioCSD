@@ -1,10 +1,12 @@
-# 用Photoshop自动创建CocosStudio界面场景
+# 用Photoshop自动创建CocosStudio场景.csd文件
+
+看文字累，可以先看下[视频演示（点击观看）](http://v.youku.com/v_show/id_XOTE0NzE2NDg0.html)，了解工具带来的轻松和方便。
 
 工欲善其事必先利其器，趁手的工具会让生活美好许多，虽然Cocos2d-x，提供了Cocos Studio 2界面编辑器，但是在美术设计好界面后，要在Cocos Studio 2界面编辑器呈现出来，确是个工作量比较大的体力活，首先美术要把界面元素切成小图，然后界面编辑器使用人员，根据效果图把美术提供的小图在编辑器中拼接出来，这几步操作非但没有技术含量，又特别费工时，于是就有了‘PhotoshopLayerToCocosStudioCSD’这个工具，让美术和界面编辑器使用人员，可以节省大量时间去上上网，聊聊天。
 
 #工具介绍
 
-用Photoshop自动创建CocosStudio界面场景的工具，是：[LayersToCSD.jsx（点击下载）](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/releases/download/1.0/LayersToCSD.jsx)，这是一个photoshop脚本文件，安装和使用非常方便，这个photoshop脚本，改编自[Spine](www.esotericsoftware.com)的LayersToPNG.jsx脚本，只是修改了里面的文件输出部分，所以会看到操作界面是一样的。
+用Photoshop自动创建CocosStudio界面场景的工具，是：[LayersToCSD.jsx（点击下载）](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/releases/download/1.0/LayersToCSD.jsx)，这是一个photoshop脚本文件，安装和使用非常方便，这个photoshop脚本，改编自[Spine](https://www.esotericsoftware.com)的LayersToPNG.jsx脚本，只是修改了里面的文件输出部分，所以会看到操作界面是一样的。
 
 这个工具的调试用的是：Adobe Photoshop CS6，其它版本没测试过。
 
