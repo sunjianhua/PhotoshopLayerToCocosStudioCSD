@@ -6,7 +6,7 @@
 
 #工具介绍
 
-用Photoshop自动创建CocosStudio场景（Scene/Layer/Node）的工具，是：[LayersToCSD.jsx（点击下载）](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/releases/download/1.0.1/LayersToCSD.jsx)，这是一个photoshop脚本文件，安装和使用非常方便，这个photoshop脚本，改编自[Spine](https://www.esotericsoftware.com)的LayersToPNG.jsx脚本，只是修改了里面的文件输出部分和增加了一个.csb类型选择，所以会看到操作界面基本是相同的。
+用Photoshop自动创建CocosStudio .csb文件（Scene/Layer/Node）的工具，是：[LayersToCSD.jsx（点击下载）](https://github.com/sunjianhua/PhotoshopLayerToCocosStudioCSD/releases/download/1.0.1/LayersToCSD.jsx)，这是一个photoshop脚本文件，安装和使用非常方便，这个photoshop脚本，改编自[Spine](https://www.esotericsoftware.com)的LayersToPNG.jsx脚本，只是修改了里面的文件输出部分和增加了一个.csb类型选择，所以会看到操作界面基本是相同的。
 
 这个工具的调试用的是：Adobe Photoshop CS6，其它版本没测试过。
 
