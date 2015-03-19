@@ -13,6 +13,7 @@ var useRulerOrigin = false;
 var imagesDir = "./images/";
 var projectDir = "";
 var padding = 1;
+var typeText = "Scene";
 
 // IDs for saving settings.
 const settingsID = stringIDToTypeID("settings");
@@ -132,11 +133,11 @@ function run () {
 
 	// Output skeleton and bones.
 	var json = '<GameProjectFile>\n';
-	json += '\t<PropertyGroup Type="Scene" Name="' + docName + '" ID="' + guid() + '" Version="2.1.5.0" />\n';
+	json += '\t<PropertyGroup Type="' + typeText + '" Name="' + docName + '" ID="' + guid() + '" Version="2.1.5.0" />\n';
 	json += '\t<Content ctype="GameProjectContent">\n';
 	json += '\t\t<Content>\n';
 	json += '\t\t<Animation Duration="0" Speed="1.0000" />\n';
-	json += '\t\t<ObjectData Name="Scene" FrameEvent="" Tag="' + tagIndex + '" ctype="SingleNodeObjectData">\n';
+	json += '\t\t<ObjectData Name="' + typeText + '" FrameEvent="" Tag="' + tagIndex + '" ctype="SingleNodeObjectData">\n';
 	tagIndex += 1;
 	json += '\t\t\t<Position X="0.0000" Y="0.0000" />\n';
 	json += '\t\t\t<Scale ScaleX="1.0000" ScaleY="1.0000" />\n';
@@ -336,6 +337,30 @@ function showDialog () {
 	paddingText.onChanging = function () { paddingSlider.value = paddingText.text; };
 	paddingSlider.onChanging = function () { paddingText.text = Math.round(paddingSlider.value); };
 
+	var stringOptions = [];
+	stringOptions[0] = "Scene";
+	stringOptions[1] = "Layer";
+	stringOptions[2] = "Node";
+
+	var selGroup = dialog.add("group");
+			group = selGroup.add("group");
+			group.orientation = "column";
+			group.alignChildren = "right";
+			group.add("statictext", undefined, "Type:");
+
+			group = selGroup.add("group");
+			group.alignment = ["fill", ""];
+			group.orientation = "column";
+			group.alignChildren = ["fill", ""];
+			var typeSel = group.add('dropdownlist', undefined, 'Test');
+
+			var item
+			for (var i=0,len=stringOptions.length;i<len;i++){
+				item = typeSel.add ('item', "" + stringOptions[i]);     
+			};
+			typeSel.onChange = function() {typeText = stringOptions[parseInt(this.selection)];};
+			typeSel.selection = typeSel.items[0];
+
 	var outputGroup = dialog.add("panel", undefined, "Output directories");
 		outputGroup.alignChildren = "fill";
 		outputGroup.margins = [10,15,10,10];
@@ -344,7 +369,7 @@ function showDialog () {
 				group.orientation = "column";
 				group.alignChildren = "right";
 				group.add("statictext", undefined, "Images:");
-				group.add("statictext", undefined, "JSON:");
+				group.add("statictext", undefined, ".csd:");
 			group = textGroup.add("group");
 				group.orientation = "column";
 				group.alignChildren = "fill";
